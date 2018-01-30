@@ -5,7 +5,7 @@ const todo = action => {
   return {
     text: action.payload.text,
     dueDate: action.payload.dueDate,
-    id: Math.random()
+    id: Math.random(),
   };
 };
 

@@ -5,19 +5,19 @@ export const CLEAR_TODOS = 'clear_todos';
 export const addTodo = todo => {
   return {
     type: ADD_TODO,
-    payload: todo
+    payload: todo,
   };
 };
 
 export const deleteTodo = id => {
   return {
     type: DELETE_TODO,
-    payload: id
+    payload: id,
   };
 };
 
 export const clearTodos = () => {
   return {
-    type: CLEAR_TODOS
+    type: CLEAR_TODOS,
   };
 };

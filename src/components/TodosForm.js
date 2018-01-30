@@ -5,7 +5,7 @@ import { addTodo } from '../actions';
 class TodosForm extends Component {
   state = {
     text: '',
-    dueDate: ''
+    dueDate: '',
   };
 
   onButtonClick = () => {
@@ -13,7 +13,7 @@ class TodosForm extends Component {
     console.log(this.state.dueDate);
     this.setState({
       text: '',
-      dueDate: ''
+      dueDate: '',
     });
   };
 
