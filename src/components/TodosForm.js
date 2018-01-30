@@ -21,7 +21,6 @@ class TodosForm extends Component {
     <div className="form-inline todo-form">
       <div className="form-group">
         <input
-          required
           className="form-control"
           placeholder="I have to ..."
           onChange={event => this.setState({ text: event.target.value })}
